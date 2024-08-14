@@ -11,7 +11,9 @@
 
 <form action="post.php" method="post">
     <h4 style="margin-bottom: 6px">3'e Bölünebilir mi?</h4>
-    <input type="number" name="number" placeholder="Sayı giriniz!" style="margin-bottom: 6px; padding: 3px">
+    <label>
+        <input type="number" name="number" placeholder="Sayı giriniz!" style="margin-bottom: 6px; padding: 3px">
+    </label>
     <button style="background-color: bisque; padding: 3px">Kontrol et</button>
     <hr>
 </form>
